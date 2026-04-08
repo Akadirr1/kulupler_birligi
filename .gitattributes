@@ -1,0 +1,12 @@
+# Tüm metin dosyalarının satır sonlarını normalize et
+* text=auto eol=lf
+
+# Açıkça binary olanlar
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+*.woff binary
+*.woff2 binary
