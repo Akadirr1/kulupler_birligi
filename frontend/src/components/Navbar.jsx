@@ -31,10 +31,10 @@ const Navbar = () => {
           </div>
           <div className="hidden sm:block">
             <p className="font-display font-bold text-white text-sm leading-none">
-              Teknofest Kulüpler Birliği
+              Milli Teknoloji Takımları Birliği
             </p>
             <p className="text-neon font-mono text-[10px] tracking-widest leading-none mt-0.5">
-              TKB
+              MTTB
             </p>
           </div>
         </Link>

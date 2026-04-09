@@ -6,7 +6,7 @@ const features = [
     Icon: Users,
     title: 'Güçlü Ağ',
     description:
-      "Türkiye'nin önde gelen teknoloji kulüpleriyle tanışın. Ortak projeler, etkinlikler ve iş birliktelikler için Türkiye genelinde geniş bir ekosisteme katılın.",
+      "Türkiye'nin önde gelen teknoloji takımlarıyla tanışın. Ortak projeler, etkinlikler ve iş birliktelikler için Türkiye genelinde geniş bir ekosisteme katılın.",
     gradientFrom: 'from-neon/15',
     gradientTo: 'to-transparent',
     border: 'hover:border-neon/30',
@@ -17,7 +17,7 @@ const features = [
     Icon: TrendingUp,
     title: 'Sponsor Gücü',
     description:
-      'Bireysel kulüpler olarak ulaşamadığınız sponsor ve kurumsal desteklere, birliğin ortak müzakere gücüyle erişin. Daha büyük bütçeler, daha büyük projeler.',
+      'Bireysel takımlar olarak ulaşamadığınız sponsor ve kurumsal desteklere, birliğin ortak müzakere gücüyle erişin. Daha büyük bütçeler, daha büyük projeler.',
     gradientFrom: 'from-electric/15',
     gradientTo: 'to-transparent',
     border: 'hover:border-electric/30',
@@ -28,7 +28,7 @@ const features = [
     Icon: Lightbulb,
     title: 'Bilgi Transferi',
     description:
-      "Yılların birikimiyle oluşturulmuş teknik know-how'u paylaşın. Deneyimli kulüplerden mentorluk alın, yeni nesil mühendislere rehberlik edin.",
+      "Yılların birikimiyle oluşturulmuş teknik know-how'u paylaşın. Deneyimli takımlardan mentorluk alın, yeni nesil mühendislere rehberlik edin.",
     gradientFrom: 'from-purple-500/15',
     gradientTo: 'to-transparent',
     border: 'hover:border-purple-500/30',
@@ -38,7 +38,7 @@ const features = [
 ];
 
 const stats = [
-  { value: '50+', label: 'Üye Kulüp' },
+  { value: '50+', label: 'Üye Takım' },
   { value: '30+', label: 'Üniversite' },
   { value: '200+', label: 'Aktif Üye' },
   { value: '12+', label: 'Teknofest Kategorisi' },
@@ -62,7 +62,7 @@ const Home = () => {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-neon/30 bg-neon/5 text-neon text-xs font-medium mb-8 animate-fade-in-up"
           >
             <span className="w-2 h-2 rounded-full bg-neon animate-pulse flex-shrink-0" />
-            Türkiye'nin Teknoloji Kulüpleri Tek Çatı Altında
+            Türkiye'nin Teknoloji Takımları Tek Çatı Altında
           </div>
 
           {/* Headline */}
@@ -79,7 +79,7 @@ const Home = () => {
             className="text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in-up"
             style={{ animationDelay: '160ms' }}
           >
-            Teknofest ruhunu taşıyan kulüpleri ortak bir platformda buluşturuyoruz. Ağ, kaynak ve
+            Teknofest ruhunu taşıyan takımları ortak bir platformda buluşturuyoruz. Ağ, kaynak ve
             bilgi paylaşımıyla daha güçlü projeler, daha büyük başarılar.
           </p>
 
@@ -130,7 +130,7 @@ const Home = () => {
               Birliğin Gücü, Başarının Anahtarı
             </h2>
             <p className="text-slate-400 mt-4 max-w-xl mx-auto leading-relaxed">
-              Teknofest Kulüpler Birliği, kulübünü bir üst seviyeye taşımak isteyen takımlar için
+              Milli Teknoloji Takımları Birliği, takımını bir üst seviyeye taşımak isteyenler için
               kapsamlı bir ekosistem sunuyor.
             </p>
           </div>
@@ -170,7 +170,7 @@ const Home = () => {
                 Harekete Geç, Birliğe Katıl
               </h2>
               <p className="text-slate-400 max-w-xl mx-auto mb-8 leading-relaxed">
-                Kulübünüzü Teknofest Kulüpler Birliği'ne kaydederek Türkiye genelindeki teknoloji
+                Takımınızı Milli Teknoloji Takımları Birliği'ne kaydederek Türkiye genelindeki teknoloji
                 topluluğunun bir parçası olun.
               </p>
               <Link

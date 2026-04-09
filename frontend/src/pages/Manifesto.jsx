@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
 
 const commitments = [
-  'Üye kulüplere yönelik düzenli teknik eğitim ve workshoplar düzenlemek.',
-  'Sponsor ve kurumsal ortaklıklarda birlikte hareket ederek kulüplerin kaynaklara erişimini artırmak.',
+  'Üye takımlara yönelik düzenli teknik eğitim ve workshoplar düzenlemek.',
+  'Sponsor ve kurumsal ortaklıklarda birlikte hareket ederek takımların kaynaklara erişimini artırmak.',
   'Üniversiteler arası iş birliklerini teşvik eden projeler ve etkinlikler organize etmek.',
-  'Her kulübün sesini birlik platformunda eşit biçimde duyurabilmesini sağlamak.',
+  'Her takımın sesini birlik platformunda eşit biçimde duyurabilmesini sağlamak.',
   'Açık kaynak kültürünü benimseyen, bilgiyi paylaşmaktan çekinmeyen bir ekosistem inşa etmek.',
 ];
 
@@ -27,7 +27,7 @@ const Manifesto = () => {
         <div className="absolute inset-0 bg-grid-pattern bg-grid-size opacity-60" />
         <div className="relative container-max mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
           <p className="text-neon text-xs font-mono tracking-[0.2em] uppercase mb-4">
-            Teknofest Kulüpler Birliği
+            Milli Teknoloji Takımları Birliği
           </p>
           <h1 className="font-display font-extrabold text-5xl sm:text-6xl text-white mb-6 leading-tight">
             Manifestomuz
@@ -58,7 +58,7 @@ const Manifesto = () => {
               buluşuyoruz: teknolojiyi ülkemizin geleceği için araç yapmak.
             </p>
             <p>
-              Teknofest Kulüpler Birliği, bu ortak amacı somutlaştırmak için kuruldu. Sadece bir
+              Milli Teknoloji Takımları Birliği, bu ortak amacı somutlaştırmak için kuruldu. Sadece bir
               örgüt ya da platform değiliz; aynı ateşi taşıyan insanların oluşturduğu canlı, büyüyen
               ve birbirini besleyen bir topluluğuz.
             </p>
@@ -69,7 +69,7 @@ const Manifesto = () => {
             <p>
               Bir mühendis yalnızca hesap yapan, kod yazan ya da devre tasarlayan kişi değildir.
               Bir mühendis, yarattığı her şeyin topluma olan etkisini bilen, bu etkinin
-              sorumluluğunu taşıyan kişidir. Teknofest Kulüpler Birliği olarak, teknolojik
+              sorumluluğunu taşıyan kişidir. Milli Teknoloji Takımları Birliği olarak, teknolojik
               gelişimi etik bir temele oturtmayı birincil ilkemiz kabul ediyoruz.
             </p>
             <p>
@@ -84,14 +84,14 @@ const Manifesto = () => {
           <ManifestoSection title="İşbirliğinin Gücü">
             <p>
               Rekabet, bizi daha iyi yapan bir güçtür. Fakat gerçek ilerleme işbirliğiyle gelir.
-              Bir kulübün yıllarca geliştirdiği teknik bilgi birikimini başka bir kulüpten genç bir
+              Bir takımın yıllarca geliştirdiği teknik bilgi birikimini başka bir takımdan genç bir
               ekiple paylaşması; onların bu bilgiyi alıp daha da ileriye taşıması — işte bu döngü,
               Türkiye teknoloji ekosistemini gerçekten güçlü kılan şeydir.
             </p>
             <p>
-              Teknofest Kulüpler Birliği bu döngüyü hızlandırmak için kuruldu. Kulüplerimiz
+              Milli Teknoloji Takımları Birliği bu döngüyü hızlandırmak için kuruldu. Takımlarımız
               arasında düzenlediğimiz teknik workshoplar, çapraz mentorluk programları ve ortak proje
-              geliştirme girişimleri, her bir üye kulübü hem kendi alanında uzmanlaştırır hem de
+              geliştirme girişimleri, her bir üye takımı hem kendi alanında uzmanlaştırır hem de
               alanlar arasında köprüler kurmasını sağlar.
             </p>
           </ManifestoSection>
@@ -131,10 +131,10 @@ const Manifesto = () => {
               <span className="gradient-text font-bold">Birlikte kazanır.</span>
             </p>
             <p className="text-slate-500 text-sm max-w-sm mx-auto">
-              Bu manifestoyu benimsiyorsanız, kulübünüzü Teknofest Kulüpler Birliği'ne katın.
+              Bu manifestoyu benimsiyorsanız, takımınızı Milli Teknoloji Takımları Birliği'ne katın.
             </p>
             <Link to="/basvuru" id="manifesto-apply-btn" className="btn-primary text-base px-10 py-4 inline-flex">
-              Kulübünü Birliğe Kaydet
+              Takımını Birliğe Kaydet
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>

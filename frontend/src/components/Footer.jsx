@@ -16,13 +16,13 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-display font-bold text-white text-sm">
-                  Teknofest Kulüpler Birliği
+                  Milli Teknoloji Takımları Birliği
                 </p>
-                <p className="text-neon font-mono text-[10px] tracking-widest">TKB</p>
+                <p className="text-neon font-mono text-[10px] tracking-widest">MTTB</p>
               </div>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
-              Türkiye'nin teknoloji kulüplerini bir araya getirerek daha güçlü bir mühendislik
+              Türkiye'nin teknoloji takımlarını bir araya getirerek daha güçlü bir mühendislik
               ekosistemi inşa ediyoruz.
             </p>
           </div>
@@ -58,10 +58,10 @@ const Footer = () => {
               Sorularınız için:
               <br />
               <a
-                href="mailto:info@tkb.org.tr"
+                href="mailto:info@mttb.org.tr"
                 className="text-neon hover:text-neon-dark transition-colors"
               >
-                info@tkb.org.tr
+                info@mttb.org.tr
               </a>
             </p>
             <div className="flex gap-3 mt-5">
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="divider pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-slate-600">
-            © {year} Teknofest Kulüpler Birliği. Tüm hakları saklıdır.
+            © {year} Milli Teknoloji Takımları Birliği. Tüm hakları saklıdır.
           </p>
           <p className="text-xs text-slate-700 font-mono">
             Birlikte daha güçlüyüz
